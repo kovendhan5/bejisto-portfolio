@@ -128,9 +128,9 @@ export default function Home() {
                 </div>
               </div>
               <div className="relative">
-                <div className="aspect-square rounded-2xl overflow-hidden">
+              <div className="aspect-square rounded-2xl overflow-hidden w-full h-[600px]">
                   <Image
-                    src="/placeholder.svg?height=600&width=600"
+                    src="/placeholder.svg"
                     alt="About me image"
                     fill
                     className="object-cover"
