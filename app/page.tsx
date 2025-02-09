@@ -71,10 +71,11 @@ export default function Home() {
             <div className="relative">
               <div className="aspect-square rounded-full bg-gradient-to-br from-blue-100 via-pink-100 to-blue-50 p-8">
                 <div className="w-full h-full rounded-full overflow-hidden relative">
-                  <Image
+                <Image
                     src="/profile.png"
                     alt="Professional headshot"
-                    fill
+                    width={600}
+                    height={600}
                     className="object-cover"
                     priority
                   />
@@ -129,12 +130,15 @@ export default function Home() {
               </div>
               <div className="relative">
               <div className="aspect-square rounded-2xl overflow-hidden w-full h-[600px]">
-                  <Image
-                    src="public/placeholder.svg"
-                    alt="About me image"
-                    fill
-                    className="object-cover"
-                  />
+              <div className="aspect-square rounded-2xl overflow-hidden">
+                    <Image
+                      src="/placeholder.svg"
+                      alt="Placeholder"
+                      width={600}
+                      height={600}
+                      className="object-cover"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
