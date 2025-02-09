@@ -72,7 +72,7 @@ export default function Home() {
               <div className="aspect-square rounded-full bg-gradient-to-br from-blue-100 via-pink-100 to-blue-50 p-8">
                 <div className="w-full h-full rounded-full overflow-hidden relative">
                   <Image
-                    src="/profile.png?height=600&width=600"
+                    src="public\profile.png?height=600&width=600"
                     alt="Professional headshot"
                     fill
                     className="object-cover"
